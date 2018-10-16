@@ -1,0 +1,592 @@
+{
+  "version": "4",
+  "rollouts": [],
+  "anonymizeIP": true,
+  "projectId": "10847551550",
+  "variables": [],
+  "featureFlags": [],
+  "experiments": [
+    {
+      "status": "Running",
+      "key": "aa-nop-test",
+      "layerId": "10845103118",
+      "trafficAllocation": [
+        {
+          "entityId": "10849033056",
+          "endOfRange": 5000
+        },
+        {
+          "entityId": "10851673401",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "10851673401",
+          "key": "a"
+        },
+        {
+          "variables": [],
+          "id": "10849033056",
+          "key": "b"
+        }
+      ],
+      "forcedVariations": {},
+      "id": "10853202091"
+    },
+    {
+      "status": "Running",
+      "key": "dashboard-blank-slate-v3-0718",
+      "layerId": "11083841709",
+      "trafficAllocation": [
+        {
+          "entityId": "11093690955",
+          "endOfRange": 250
+        },
+        {
+          "entityId": "11093690955",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11093690955",
+          "endOfRange": 750
+        },
+        {
+          "entityId": "11093690955",
+          "endOfRange": 1000
+        },
+        {
+          "entityId": "11093690955",
+          "endOfRange": 5750
+        },
+        {
+          "entityId": "11093690955",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11087720760",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11093690955",
+          "key": "todo-list"
+        }
+      ],
+      "forcedVariations": {},
+      "id": "11083811294"
+    },
+    {
+      "status": "Running",
+      "key": "dashboard-blank-slate-v3-ecommerce-0718",
+      "layerId": "11109083366",
+      "trafficAllocation": [
+        {
+          "entityId": "11099535677",
+          "endOfRange": 250
+        },
+        {
+          "entityId": "11099535677",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11086013098",
+          "endOfRange": 750
+        },
+        {
+          "entityId": "11099535677",
+          "endOfRange": 1000
+        },
+        {
+          "entityId": "11086013098",
+          "endOfRange": 5750
+        },
+        {
+          "entityId": "11099535677",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11099535677",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11086013098",
+          "key": "todo-list"
+        }
+      ],
+      "forcedVariations": {
+        "102888570": "todo-list"
+      },
+      "id": "11109326556"
+    },
+    {
+      "status": "Running",
+      "key": "grow-261-billing-modal-in-list-import-0818",
+      "layerId": "11320630474",
+      "trafficAllocation": [
+        {
+          "entityId": "11332320659",
+          "endOfRange": 250
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 750
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 1000
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 1250
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 1500
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 2000
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 2500
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 3250
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 4000
+        },
+        {
+          "entityId": "11332320659",
+          "endOfRange": 5000
+        },
+        {
+          "entityId": "11342340341",
+          "endOfRange": 5250
+        },
+        {
+          "entityId": "11342340341",
+          "endOfRange": 6500
+        },
+        {
+          "entityId": "11342340341",
+          "endOfRange": 9000
+        },
+        {
+          "entityId": "11342340341",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11332320659",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11342340341",
+          "key": "upsell-refined"
+        }
+      ],
+      "forcedVariations": {
+        "103119362": "upsell-refined",
+        "102888570": "upsell-refined"
+      },
+      "id": "11354310013"
+    },
+    {
+      "status": "Running",
+      "key": "grow-136-grow-audience-bundle-0918",
+      "layerId": "11378843406",
+      "trafficAllocation": [
+        {
+          "entityId": "11376891976",
+          "endOfRange": 250
+        },
+        {
+          "entityId": "11376891976",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11376891976",
+          "endOfRange": 750
+        },
+        {
+          "entityId": "11376891976",
+          "endOfRange": 1000
+        },
+        {
+          "entityId": "11376891976",
+          "endOfRange": 5000
+        },
+        {
+          "entityId": "11381551354",
+          "endOfRange": 5500
+        },
+        {
+          "entityId": "11381551354",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11381551354",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11376891976",
+          "key": "signup-step"
+        }
+      ],
+      "forcedVariations": {
+        "103163786": "signup-step"
+      },
+      "id": "11359413781"
+    },
+    {
+      "status": "Running",
+      "key": "aut-145-triggered-vs-automated-1018",
+      "layerId": "11661790289",
+      "trafficAllocation": [
+        {
+          "entityId": "11657900165",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11676710346",
+          "endOfRange": 1000
+        },
+        {
+          "entityId": "11657900165",
+          "endOfRange": 5500
+        },
+        {
+          "entityId": "11676710346",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11676710346",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11657900165",
+          "key": "triggered"
+        }
+      ],
+      "forcedVariations": {
+        "103384494": "triggered",
+        "92112934": "triggered"
+      },
+      "id": "11653840164"
+    },
+    {
+      "status": "Running",
+      "key": "grow-758-new-intent-to-purchase-with-ube",
+      "layerId": "11673210077",
+      "trafficAllocation": [
+        {
+          "entityId": "11655770076",
+          "endOfRange": 0
+        },
+        {
+          "entityId": "11659650142",
+          "endOfRange": 0
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11655770076",
+          "key": "control"
+        },
+        {
+          "variables": [],
+          "id": "11659650142",
+          "key": "ube"
+        }
+      ],
+      "forcedVariations": {
+        "103523854": "ube",
+        "103532934": "ube",
+        "103516886": "ube"
+      },
+      "id": "11656000129"
+    },
+    {
+      "status": "Running",
+      "key": "dan-testing-notifications",
+      "layerId": "11730254557",
+      "trafficAllocation": [
+        {
+          "entityId": "11695924248",
+          "endOfRange": 50
+        },
+        {
+          "entityId": "11695924248",
+          "endOfRange": 500
+        },
+        {
+          "entityId": "11716993075",
+          "endOfRange": 950
+        },
+        {
+          "entityId": "",
+          "endOfRange": 1750
+        },
+        {
+          "entityId": "",
+          "endOfRange": 1900
+        },
+        {
+          "entityId": "11716993075",
+          "endOfRange": 1950
+        },
+        {
+          "entityId": "",
+          "endOfRange": 2050
+        },
+        {
+          "entityId": "",
+          "endOfRange": 3950
+        },
+        {
+          "entityId": "",
+          "endOfRange": 4150
+        },
+        {
+          "entityId": "",
+          "endOfRange": 4200
+        },
+        {
+          "entityId": "",
+          "endOfRange": 4250
+        },
+        {
+          "entityId": "",
+          "endOfRange": 4700
+        },
+        {
+          "entityId": "",
+          "endOfRange": 5000
+        },
+        {
+          "entityId": "",
+          "endOfRange": 6750
+        },
+        {
+          "entityId": "",
+          "endOfRange": 6900
+        },
+        {
+          "entityId": "",
+          "endOfRange": 8800
+        },
+        {
+          "entityId": "",
+          "endOfRange": 9000
+        },
+        {
+          "entityId": "",
+          "endOfRange": 9500
+        },
+        {
+          "entityId": "",
+          "endOfRange": 10000
+        }
+      ],
+      "audienceIds": [],
+      "variations": [
+        {
+          "variables": [],
+          "id": "11695924248",
+          "key": "a"
+        },
+        {
+          "variables": [],
+          "id": "11716993075",
+          "key": "b"
+        }
+      ],
+      "forcedVariations": {},
+      "id": "11716925753"
+    }
+  ],
+  "audiences": [],
+  "groups": [],
+  "attributes": [],
+  "botFiltering": false,
+  "accountId": "8896740779",
+  "events": [
+    {
+      "experimentIds": [
+        "10853202091"
+      ],
+      "id": "10842992599",
+      "key": "signup"
+    },
+    {
+      "experimentIds": [
+        "10853202091"
+      ],
+      "id": "10849042685",
+      "key": "login"
+    },
+    {
+      "experimentIds": [
+        "11354310013",
+        "11359413781",
+        "11656000129"
+      ],
+      "id": "10924033141",
+      "key": "paid-monthly"
+    },
+    {
+      "experimentIds": [
+        "11083811294",
+        "11109326556",
+        "11354310013",
+        "11716925753"
+      ],
+      "id": "10927863363",
+      "key": "list-import"
+    },
+    {
+      "experimentIds": [
+        "11083811294",
+        "11109326556",
+        "11354310013"
+      ],
+      "id": "10941681264",
+      "key": "campaign-send"
+    },
+    {
+      "experimentIds": [
+        "11083811294",
+        "11109326556"
+      ],
+      "id": "10956502300",
+      "key": "campaign-create"
+    },
+    {
+      "experimentIds": [
+        "11083811294"
+      ],
+      "id": "10964332944",
+      "key": "list-create"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11076072573",
+      "key": "signup-complete"
+    },
+    {
+      "experimentIds": [
+        "11109326556"
+      ],
+      "id": "11081713988",
+      "key": "connected-store"
+    },
+    {
+      "experimentIds": [],
+      "id": "11085151125",
+      "key": "purchase-monthly"
+    },
+    {
+      "experimentIds": [
+        "11083811294",
+        "11109326556"
+      ],
+      "id": "11110660513",
+      "key": "updated-campaign-content"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11355969158",
+      "key": "facebook-ad-create"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11364948844",
+      "key": "popup-form-create"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11366849681",
+      "key": "popup-form-publish"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11376907508",
+      "key": "facebook-ad-publish"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11393184768",
+      "key": "landing-page-publish"
+    },
+    {
+      "experimentIds": [
+        "11359413781"
+      ],
+      "id": "11397341170",
+      "key": "landing-page-create"
+    },
+    {
+      "experimentIds": [
+        "11653840164"
+      ],
+      "id": "11399104271",
+      "key": "automations-create-finish"
+    },
+    {
+      "experimentIds": [
+        "11653840164"
+      ],
+      "id": "11430364093",
+      "key": "automations-create-start"
+    }
+  ],
+  "revision": "483"
+}
