@@ -27,7 +27,7 @@ pycparser==2.19
 pyOpenSSL==18.0.0
 pytz==2018.5
 requests==2.19.1
-rsa==4.0
+rsa==4.1
 six==1.11.0
 urllib3==1.23
 Werkzeug==0.14.1
